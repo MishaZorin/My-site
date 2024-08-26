@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+details{
+    display: none;
+}
+
+.header-right {
+    display: flex;
+}
+
+.header-left {
+    display: flex;
+
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    margin-top: 30px;
+}
+
+input {
+    margin-left: 20px;
+    border-radius: 20px;
+    background-color: rgba(125, 121, 121, 0.452);
+    width: 233px;
+    height: 29px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+a {
+    color: white;
+    padding: 5px 10px;
+    border-radius: 30px ;
+    background-color: black;
+    text-decoration: none;
+    margin-left: 50px;
+
+}
+a:hover{
+    transition: 0.9s;
+    box-shadow: 0 0 10px black;
+    background-color: white;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+h1 {
+    border-bottom: 2px solid black;
+    width: 600px;
+    margin-bottom: 50px;
+    margin-top: 200px;
+    font-size: 50px
+    
+}
+
+h2 {
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+.main-part {
+    margin-left: 80px;
+}
+
+.modal {
+
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: none;
+    
+
+}
+.modal1 {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: none;
+    
+
+}
+h3{
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-bottom: 2px solid black;
+}
+.modal_p{
+    margin-left: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.team_person{
+    display: flex;
+    margin-left: 30px;
+}
+.skills{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.skill{
+    margin-bottom: 20px;
+}
+.button{
+    background-color: black;
+    width: 100px;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 20px ;
+    color: white;
+    margin: 20px 20px;
+}
+.button:hover{
+    transition: 0.9s;
+    box-shadow: 0 0 10px black;
+    background-color: white;
+    color: black;
+}
+
+h5{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+}
+.socials{
+    text-align: center;
+    margin: 20px 20px;
+    
+}
+.socials br{
+    border-bottom: 2px solid black;
+}
+.modal2 {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: none;
+    
+
+}
+.info{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+video{
+    width: 300px;
+    height: 300px;
+}
+@media (max-width:600px){
+    header{
+        display: none;
+    }
+    h1{
+        font-size: 40px;
+    }
+    .skills{
+        margin: 10px 10px;
+    }
+    details{
+        display: block;
+        /* flex-direction: column; */
+        /* align-items: flex-start; */
+        
+    }
+    details summary::-webkit-details-marker {
+        display:none;
+      }
+    a{
+        display: inline-block;
+        margin-bottom: 10px ;
+        line-height: 40px;
+        padding:  0 10px;
+    }
+}
