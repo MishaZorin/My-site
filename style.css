@@ -23,7 +23,9 @@ header .container {
     display: flex;
     justify-content: space-between;
 }
-
+summary{
+    height: 140px;
+}
 header {
     margin-top: 30px;
 }
@@ -62,7 +64,7 @@ ul {
 
 .container {
     width: 90%;
-    max-width: 1200px;
+    max-width: 1900px;
     margin: auto;
 }
 
@@ -116,6 +118,7 @@ h3{
     margin-left: 30px;
     margin-top: 50px;
     margin-bottom: 50px;
+   
 }
 .team_person{
     display: flex;
@@ -152,6 +155,7 @@ h5{
 .socials{
     text-align: center;
     margin: 20px 20px;
+    line-height: 40px;
     
 }
 .socials br{
@@ -176,6 +180,7 @@ video{
     width: 300px;
     height: 300px;
 }
+
 @media (max-width:600px){
     header{
         display: none;
